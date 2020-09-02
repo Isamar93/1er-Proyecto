@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    background-color: #8e6995;
+    height: 5%;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #93c8d9 ;
+    flex-grow: 1;
+
+}
+.foother{
+    display: flex;
+    justify-content: center;
+    background-color: indianred;
+    height: 5%;
+}
